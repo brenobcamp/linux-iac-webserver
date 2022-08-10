@@ -24,5 +24,5 @@ echo "Copiando arquivos para o Apache..."
 unzip main.zip
 cd linux-site-dio-main
 # Troque "linux-site-dio" para o nome do seu repositório
-cp * /var/www/html/ 
+cp -r * /var/www/html/ 
 echo "Finalizado!"
