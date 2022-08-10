@@ -2,16 +2,16 @@
 
 echo "Atualizando o servidor..."
 
-apt update
+apt update -y
 apt upgrade
 
 echo "Instalando o Apache..."
 
-apt install apache2
+apt install apache2 -y
 
 echo "Instalando o Unzip..."
 
-apt install unzip
+apt install unzip -y
 
 echo "Baixando arquivos do site..."
 
