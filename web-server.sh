@@ -22,7 +22,7 @@ wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.z
 echo "Copiando arquivos para o Apache..."
 
 unzip main.zip
-cd linux-site-dio
+cd linux-site-dio-main
 # Troque "linux-site-dio" para o nome do seu repositório
 cp * /var/www/html/ 
 echo "Finalizado!"
